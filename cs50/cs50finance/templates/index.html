@@ -1,0 +1,43 @@
+{% extends "layout.html" %}
+
+    {% block title %}
+        Home
+    {% endblock %}
+
+    {% block main %}
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>Symbol</th>
+                    <th>Name</th>
+                    <th>Shares</th>
+                    <th>Price</th>
+                    <th>TOTAL</th>
+                </tr>
+            </thead>
+            <tfoot>
+                <tr>
+                    <td colspan="4"></td> <!--This takes up 4 column spaces,-->
+                    <td><b>{{ totaluserworth | moneyFormat }}</b></td> <!--and makes this the 5th column-->
+                </tr>
+            </tfoot>
+            <tbody>
+                {% for row in rows %}
+                <tr>
+                    <td>{{ row['stock'] }}</td>
+                    <td>{{ row['fullname'] }}</td>
+                    <td>{{ row['shares'] }}</td>
+                    <td>{{ row['worth'] | moneyFormat }}</td>
+                    <td>{{ row['totalworth'] | moneyFormat }}</td>
+                </tr>
+                {% endfor %}
+                <tr>
+                    <td>CASH</td>
+                    <td colspan="3"></td> <!--This takes up 4 column spaces-->
+                    <td>{{ cash|moneyFormat }}</td> <!--and makes this the 5th column-->
+                </tr>
+            </tbody>
+
+        </table>
+
+    {% endblock %}

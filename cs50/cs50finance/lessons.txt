@@ -1,0 +1,13 @@
+SQL
+use NUMERIC instead of INTEGER for money, need decimal places
+
+# NEED THIS TO CASCADE DELETE! PRAGMA foreign_keys = ON;
+
+SELECT * FROM usershares where userID = 7 ORDER BY total; << doesnt work
+SELECT * FROM usershares where userID = 7 ORDER BY 'total'; << works, don't use total as column name
+
+HTML
+Need "" as in "layout.html" in extend statements.
+
+# session["test"]="teststring"
+# <p>{{ session.test }} : session dictionary is accessible without being passed into HTML during render_template</p>

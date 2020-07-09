@@ -1,0 +1,24 @@
+{% extends "layout.html" %}
+
+    {% block title %}
+        Sell!
+    {% endblock %}
+
+    {% block main %}
+    <form action="/sell" method="post">
+
+        <div class="form-group">
+            <select class="form-control" name="stockname">
+                <option disabled selected value>Symbol</option> <!--does the empty value attribute do anything?-->
+                {% for row in rows %}
+                    <option value="{{ row['stock'] }}">{{ row['stock'] }}</option>
+                {% endfor %}
+            </select>
+        </div>
+        <div class="form-group">
+            <input type="number" autofocus class="form-control" min="1" name="stockamount" placeholder="Shares" required>
+        </div>
+        <button type="submit" class="btn btn-primary">Sell!</button>
+    </form>
+
+    {% endblock %}

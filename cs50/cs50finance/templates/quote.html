@@ -1,0 +1,24 @@
+{% extends 'layout.html' %}
+
+    {% block title %}
+        Quote
+    {% endblock %}
+
+{% block main %}
+
+    {% if mode == 'requestquote' %}
+        <!--enter stock and submit-->
+        <form action="/quote" method="post">
+            <div class="form-group" >
+                <input type="text" autofocus class="form-control" name="stockname" placeholder="Stock Name">
+            </div>
+            <button class="btn btn-primary" type="submit">Submit</button>
+        </form>
+
+    {% else %}
+
+        <p><h4>A share of {{ response["name"] }} ({{ response["symbol"] }}) costs {{ response["price"] | moneyFormat }}</h4></p>
+
+    {% endif %}
+
+{% endblock %}
