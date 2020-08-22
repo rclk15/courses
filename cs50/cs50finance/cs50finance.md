@@ -15,7 +15,7 @@ Runs in cs50's IDE.
 
 in the application.py folder:\
 export API_KEY = (your iexcloud.io API key)\
-flash run 
+flask run 
 
 ## Assignment Description
 [https://cs50.harvard.edu/x/2020/tracks/web/finance/](https://cs50.harvard.edu/x/2020/tracks/web/finance/) 
