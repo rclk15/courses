@@ -1,0 +1,140 @@
+Heap
+Size of heap: 23
+1 2 6 4 3 10 7 27 5 21 9 45 36 43 8 44 32 40 17 42 28 31 17
+
+Insert 31
+Heap after insert 31
+Size of heap: 24
+1 2 6 4 3 10 7 27 5 21 9 31 36 43 8 44 32 40 17 42 28 31 17 45
+
+Insert 14
+Heap after insert 14
+Size of heap: 25
+1 2 6 4 3 10 7 27 5 21 9 14 36 43 8 44 32 40 17 42 28 31 17 45 31
+
+Delete min
+Heap after Delete min of 1
+Size of heap: 24
+2 3 6 4 9 10 7 27 5 21 17 14 36 43 8 44 32 40 17 42 28 31 31 45
+
+Delete min
+Heap after Delete min of 2
+Size of heap: 23
+3 4 6 5 9 10 7 27 17 21 17 14 36 43 8 44 32 40 45 42 28 31 31
+
+Delete min
+Heap after Delete min of 3
+Size of heap: 22
+4 5 6 17 9 10 7 27 31 21 17 14 36 43 8 44 32 40 45 42 28 31
+
+Delete min
+Heap after Delete min of 4
+Size of heap: 21
+5 9 6 17 17 10 7 27 31 21 31 14 36 43 8 44 32 40 45 42 28
+
+Delete min
+Heap after Delete min of 5
+Size of heap: 20
+6 9 7 17 17 10 8 27 31 21 31 14 36 43 28 44 32 40 45 42
+
+Delete min
+Heap after Delete min of 6
+Size of heap: 19
+7 9 8 17 17 10 28 27 31 21 31 14 36 43 42 44 32 40 45
+
+Delete min
+Heap after Delete min of 7
+Size of heap: 18
+8 9 10 17 17 14 28 27 31 21 31 45 36 43 42 44 32 40
+
+Delete min
+Heap after Delete min of 8
+Size of heap: 17
+9 17 10 17 21 14 28 27 31 40 31 45 36 43 42 44 32
+
+Delete min
+Heap after Delete min of 9
+Size of heap: 16
+10 17 14 17 21 32 28 27 31 40 31 45 36 43 42 44
+
+Delete min
+Heap after Delete min of 10
+Size of heap: 15
+14 17 28 17 21 32 42 27 31 40 31 45 36 43 44
+
+Delete min
+Heap after Delete min of 14
+Size of heap: 14
+17 17 28 27 21 32 42 44 31 40 31 45 36 43
+
+Delete min
+Heap after Delete min of 17
+Size of heap: 13
+17 21 28 27 31 32 42 44 31 40 43 45 36
+
+Delete min
+Heap after Delete min of 17
+Size of heap: 12
+21 27 28 31 31 32 42 44 36 40 43 45
+
+Delete min
+Heap after Delete min of 21
+Size of heap: 11
+27 31 28 31 40 32 42 44 36 45 43
+
+Delete min
+Heap after Delete min of 27
+Size of heap: 10
+28 31 32 31 40 43 42 44 36 45
+
+Delete min
+Heap after Delete min of 28
+Size of heap: 9
+31 31 32 36 40 43 42 44 45
+
+Delete min
+Heap after Delete min of 31
+Size of heap: 8
+31 36 32 44 40 43 42 45
+
+Delete min
+Heap after Delete min of 31
+Size of heap: 7
+32 36 42 44 40 43 45
+
+Delete min
+Heap after Delete min of 32
+Size of heap: 6
+36 40 42 44 45 43
+
+Delete min
+Heap after Delete min of 36
+Size of heap: 5
+40 43 42 44 45
+
+Delete min
+Heap after Delete min of 40
+Size of heap: 4
+42 43 45 44
+
+Delete min
+Heap after Delete min of 42
+Size of heap: 3
+43 44 45
+
+Delete min
+Heap after Delete min of 43
+Size of heap: 2
+44 45
+
+Delete min
+Heap after Delete min of 44
+Size of heap: 1
+45
+
+Delete min
+Heap after Delete min of 45
+Size of heap: 0
+
+
+Deleted all
